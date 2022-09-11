@@ -1,0 +1,70 @@
+.App {
+  background-color: #ffffff;
+  width: 60vw;
+  margin: 2rem auto 2rem auto;
+  border: solid 1px #000000;
+  box-shadow: 2px 2px;
+  padding-bottom: 3rem;
+}
+
+.App header {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #009900
+}
+
+.container {
+  background-color: #d6d6c2;
+  width: 70%;
+  padding: 1.5rem;
+  border: solid 1px #000000;
+  margin: 1rem auto 1rem auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.field input {
+  width: 50ch;
+}
+
+textarea {
+  width: 51.5ch;
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.buttons button {
+  width: 5rem;
+  margin-left: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+.field label {
+  font-weight: bold;
+}
+.segment {
+  border-bottom: solid 1px #000000;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+};
