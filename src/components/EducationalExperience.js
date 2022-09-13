@@ -13,7 +13,7 @@ const EducationalExperience = (props) => {
   const handleChange = (e) => {
     const { dataset: { property }, value } = e.currentTarget;
     setData({
-      ...this.state.data,
+      ...data,
       [property]: value
     });
   };
